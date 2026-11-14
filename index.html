@@ -1,202 +1,57 @@
 <!DOCTYPE html>
-<html lang="en" class="dark scroll-smooth">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>noel:ution — High-Frequency Digital Architecture</title>
-    <meta name="description" content="Custom digital platforms, immersive web experiences, and high-performance architecture for luxury hospitality and brands. Based in Heraklion, Crete." />
-    
-    <!-- Google Fonts: Space Grotesk & Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Tailwind CSS CDN -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noel:ution — Digital Agency</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        obsidian: '#070707',
-                        surface: '#111111',
-                        subtle: '#1a1a1a',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        display: ['Space Grotesk', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body { font-family: 'Inter', sans-serif; background-color: #070707; color: #ededed; }
-        .font-display { font-family: 'Space Grotesk', sans-serif; }
-        /* Subtle Noise Texture Overlay */
-        .bg-noise {
-            background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 0);
-            background-size: 24px 24px;
-        }
-    </style>
 </head>
-<body class="bg-obsidian text-slate-100 antialiased selection:bg-white selection:text-black">
-
-    <!-- Top Editorial Header / Live Status -->
-    <header class="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-obsidian/80 backdrop-blur-xl">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="#" class="font-display text-xl font-bold tracking-wider text-white">
-                noel<span class="text-neutral-500">:</span>ution
-            </a>
-            
-            <div class="hidden md:flex items-center gap-3 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.02] text-xs font-mono tracking-wide text-neutral-400">
-                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                HERAKLION, GR — AVAILABLE FOR SELECT BUILDS
-            </div>
-
-            <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="#work" class="text-neutral-400 hover:text-white transition-colors">Work</a>
-                <a href="#about" class="text-neutral-400 hover:text-white transition-colors">Studio</a>
-                <a href="#contact" class="px-5 py-2.5 rounded-full bg-white text-black font-semibold hover:bg-neutral-200 transition-all">
-                    Initiate Project
-                </a>
-            </nav>
-        </div>
+<body class="bg-white text-neutral-900 font-sans antialiased">
+    <!-- Header -->
+    <header class="border-b border-neutral-100 py-6 px-8 flex justify-between items-center max-w-6xl mx-auto">
+        <div class="font-bold text-xl tracking-tight">noel<span class="text-neutral-400">:</span>ution</div>
+        <nav class="space-x-6 text-sm font-medium text-neutral-600">
+            <a href="#work" class="hover:text-black">Work</a>
+            <a href="#about" class="hover:text-black">About</a>
+            <a href="#contact" class="text-black font-semibold">Contact</a>
+        </nav>
     </header>
 
-    <!-- Cinematic Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center pt-32 pb-20 px-6 bg-noise overflow-hidden">
-        <!-- Ambient glow -->
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/[0.03] rounded-full blur-3xl pointer-events-none"></div>
-
-        <div class="max-w-5xl mx-auto text-center relative z-10">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/[0.03] text-xs font-mono text-neutral-400 mb-8 tracking-widest uppercase">
-                High-Frequency Digital Architecture
-            </div>
-            
-            <h1 class="font-display text-5xl md:text-8xl font-bold tracking-tight text-white mb-8 leading-[1.05]">
-                Precision crafted for <br /><span class="text-neutral-500">luxury hospitality.</span>
-            </h1>
-            
-            <p class="max-w-2xl mx-auto text-lg md:text-xl text-neutral-400 font-light mb-12 leading-relaxed">
-                We engineer bespoke digital platforms, fluid booking engines, and immersive web identities for hotels, beach lounges, and elite venues.
-            </p>
-
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="#contact" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white text-black font-semibold hover:bg-neutral-200 transition-all text-center">
-                    Start a Project
-                </a>
-                <a href="#work" class="w-full sm:w-auto px-8 py-4 rounded-full border border-white/10 hover:border-white/30 text-white font-medium transition-all text-center bg-white/[0.02]">
-                    Explore Selected Works
-                </a>
-            </div>
-        </div>
+    <!-- Hero -->
+    <section class="py-24 px-8 max-w-6xl mx-auto text-center">
+        <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6">Modern web design for hotels, beach bars & local brands.</h1>
+        <p class="text-lg text-neutral-600 max-w-2xl mx-auto mb-10">We build high-performance, responsive websites that convert visitors into customers.</p>
+        <a href="#contact" class="px-8 py-4 bg-black text-white font-medium rounded-full hover:bg-neutral-800 transition-colors">Start a Project</a>
     </section>
 
-    <!-- Selected Works Grid -->
-    <section id="work" class="py-32 border-t border-white/10 px-6 bg-surface">
-        <div class="max-w-7xl mx-auto">
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
-                <div>
-                    <span class="text-xs font-mono text-neutral-500 tracking-widest uppercase block mb-3">Portfolio 2026</span>
-                    <h2 class="font-display text-3xl md:text-5xl font-bold text-white">Selected Architecture</h2>
-                </div>
-                <p class="text-neutral-400 max-w-sm mt-4 md:mt-0 text-sm">
-                    Engineered with Next.js, Tailwind, and custom micro-interactions for sub-second load times.
-                </p>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-8 max-w-xl mx-auto border-t border-neutral-100">
+        <h2 class="text-2xl font-bold mb-8 text-center">Get in Touch</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+            <input type="hidden" name="access_key" value="94bd55eb-cdc2-48e7-adf9-3c29fb0950a8">
+            <div>
+                <label class="block text-sm font-medium text-neutral-700 mb-1">Name</label>
+                <input type="text" name="name" required class="w-full px-4 py-2 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none">
             </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Project 1 -->
-                <div class="group relative rounded-2xl border border-white/10 bg-obsidian p-8 hover:border-white/30 transition-all overflow-hidden">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60"></div>
-                    <div class="relative z-10 flex flex-col justify-between h-[380px]">
-                        <div class="flex items-center justify-between">
-                            <span class="text-xs font-mono px-3 py-1 rounded-full border border-white/10 bg-white/[0.05] text-neutral-300">Agios Nikolaos, GR</span>
-                            <span class="text-xs font-mono text-neutral-500">01 / CONCEPT</span>
-                        </div>
-                        <div>
-                            <h3 class="font-display text-2xl font-bold text-white mb-2 group-hover:translate-x-1 transition-transform">Kimzu Sea Lounge</h3>
-                            <p class="text-neutral-400 text-sm mb-6">Immersive reservation system and beachfront aesthetic platform.</p>
-                            <span class="text-xs font-mono text-white underline underline-offset-8">View Prototype &rarr;</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="group relative rounded-2xl border border-white/10 bg-obsidian p-8 hover:border-white/30 transition-all overflow-hidden">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60"></div>
-                    <div class="relative z-10 flex flex-col justify-between h-[380px]">
-                        <div class="flex items-center justify-between">
-                            <span class="text-xs font-mono px-3 py-1 rounded-full border border-white/10 bg-white/[0.05] text-neutral-300">Heraklion, Crete</span>
-                            <span class="text-xs font-mono text-neutral-500">02 / LIVE</span>
-                        </div>
-                        <div>
-                            <h3 class="font-display text-2xl font-bold text-white mb-2 group-hover:translate-x-1 transition-transform">Megaron Concept</h3>
-                            <p class="text-neutral-400 text-sm mb-6">High-frequency hospitality portal with custom booking integration.</p>
-                            <span class="text-xs font-mono text-white underline underline-offset-8">Explore Architecture &rarr;</span>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <label class="block text-sm font-medium text-neutral-700 mb-1">Email</label>
+                <input type="email" name="email" required class="w-full px-4 py-2 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none">
             </div>
-        </div>
-    </section>
-
-    <!-- Contact Section with Web3Forms -->
-    <section id="contact" class="py-32 border-t border-white/10 px-6">
-        <div class="max-w-4xl mx-auto">
-            <div class="text-center mb-16">
-                <span class="text-xs font-mono text-neutral-500 tracking-widest uppercase block mb-3">Initiate Dialogue</span>
-                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-4">Let's build something exceptional.</h2>
-                <p class="text-neutral-400">Direct inquiries for Q1/Q2 web development and digital staging.</p>
+            <div>
+                <label class="block text-sm font-medium text-neutral-700 mb-1">Message</label>
+                <textarea name="message" rows="4" required class="w-full px-4 py-2 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"></textarea>
             </div>
-
-            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6 bg-surface p-8 md:p-12 rounded-3xl border border-white/10 relative">
-                <!-- Web3Forms Access Key -->
-                <input type="hidden" name="access_key" value="94bd55eb-cdc2-48e7-adf9-3c29fb0950a8">
-                <input type="hidden" name="subject" value="New Inquiry via noel:ution Website">
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                        <label class="block text-xs font-mono uppercase text-neutral-400 mb-2">Your Name</label>
-                        <input type="text" name="name" required class="w-full bg-obsidian border border-white/10 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-white transition-colors text-sm" placeholder="John Doe">
-                    </div>
-                    <div>
-                        <label class="block text-xs font-mono uppercase text-neutral-400 mb-2">Email Address</label>
-                        <input type="email" name="email" required class="w-full bg-obsidian border border-white/10 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-white transition-colors text-sm" placeholder="john@example.com">
-                    </div>
-                </div>
-
-                <div>
-                    <label class="block text-xs font-mono uppercase text-neutral-400 mb-2">Project Details & Vision</label>
-                    <textarea name="message" rows="5" required class="w-full bg-obsidian border border-white/10 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-white transition-colors text-sm" placeholder="Tell us about your venue, hotel, or brand..."></textarea>
-                </div>
-
-                <button type="submit" class="w-full py-4 rounded-xl bg-white text-black font-semibold hover:bg-neutral-200 transition-all text-sm tracking-wide uppercase">
-                    Transmit Inquiry
-                </button>
-            </form>
-        </div>
+            <button type="submit" class="w-full py-3 bg-black text-white font-medium rounded-lg hover:bg-neutral-800 transition-colors">Send Message</button>
+        </form>
     </section>
 
     <!-- Footer -->
-    <footer class="border-t border-white/10 py-12 px-6 bg-obsidian">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-neutral-400">
-            <div class="font-display text-white font-bold tracking-wider">
-                noel<span class="text-neutral-500">:</span>ution
-            </div>
-            <div class="flex items-center gap-8">
-                <!-- Korrigierter Instagram Link -->
-                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Instagram</a>
-                <a href="https://github.com/noelution" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">GitHub</a>
-                <a href="mailto:noelswebsolutions@gmail.com" class="hover:text-white transition-colors">Email</a>
-            </div>
-            <div class="text-xs font-mono text-neutral-600">
-                &copy; 2026 noel:ution. All rights reserved.
-            </div>
+    <footer class="border-t border-neutral-100 py-8 px-8 max-w-6xl mx-auto text-center text-sm text-neutral-500 flex justify-between items-center">
+        <div>&copy; 2026 noel:ution. All rights reserved.</div>
+        <div class="space-x-4">
+            <a href="https://instagram.com/" target="_blank" class="hover:text-black">Instagram</a>
+            <a href="https://github.com/noelution" target="_blank" class="hover:text-black">GitHub</a>
         </div>
     </footer>
-
 </body>
 </html>
